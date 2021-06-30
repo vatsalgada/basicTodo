@@ -13,6 +13,13 @@
     <li>A</li>
     <li>B</li>
     <li>C</li>
+    <% for (var i = 0; i < listOfItems.length; i++){  %>
+        <%var item = listOfItems[i]; %>  
+        <li> <%= item %></li>
+    <% } %>
+    <!-- <%  %>
+    <%  %>
+    <li><%= listOfItems %></li> -->
     </ul>
 
 <form action="" method="POST">
